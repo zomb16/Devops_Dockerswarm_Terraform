@@ -1,7 +1,7 @@
 #This Terraform Code Deploys Basic VPC Infra...
-provider "aws" {
-  region = var.aws_region
-}
+# provider "aws" {
+#   region = var.aws_region
+# }
 
 terraform {
   required_version = "<= 2.0.14" #Forcing which version of Terraform needs to be used
